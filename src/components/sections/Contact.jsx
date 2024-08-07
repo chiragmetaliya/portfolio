@@ -187,13 +187,7 @@ const Contact = () => {
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
-          {/*<ContactInput placeholder="Subject" name="subject" />*/}
-          <ContactSelect name="subject" id="subject" required>
-            <option value="" disabled selected>Select a subject</option>
-            <option value="hiring_opportunity">I've a hiring opportunity.</option>
-            <option value="networking">I want to be in your network</option>
-            <option value="guidance">I want to connect for some guidance.</option>
-          </ContactSelect>
+          <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
