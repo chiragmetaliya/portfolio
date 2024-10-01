@@ -6,7 +6,7 @@ export const Bio = {
     "Backend Programmer",
   ],
   description:
-    "I am a dynamic and versatile full-stack developer with over 3.5+ years of hands-on experience in Node.js, React.js, and Express.js. Driven by a passion for technology and innovation, I am dedicated to delivering high-quality, efficient solutions for complex problems. My easy-going personality and knack for problem-solving enable me to thrive in collaborative, Agile environments, always ready to tackle new challenges and make a meaningful impact.",
+    "I am a dynamic and versatile full-stack developer with over 4+ years of hands-on experience in Node.js, React.js, and Express.js. Driven by a passion for technology and innovation, I am dedicated to delivering high-quality, efficient solutions for complex problems. My easy-going personality and knack for problem-solving enable me to thrive in collaborative, Agile environments, always ready to tackle new challenges and make a meaningful impact.",
   github: "https://github.com/chiragmetaliya",
   resume:
     "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
@@ -178,65 +178,75 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Netizen Solutions",
-    date: "Jan 2014 - June 2014",
-    desc: "🚀  Developed in C#, highly secure realtor's business website to track leads and to less time taking processes by applying strong technical skills obtained during this internship.\n\n 🚀  Conducted in-depth analysis to understand the legacy .Net project's internal workings and created a Microsoft Powerpoint presentation for probable future improvements in the system. \n\n 🚀  Gathered requirements from client and crafted a software requirement specification documentation using MS Word for next step of creating design of software solutions.\n\n 🚀  Conducted testing and debugging using Chrome Developer Tools and Postman, ensuring high-quality outputs.",
+    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/i2techs_logo.jpeg?alt=media&token=194905ce-47ec-4282-a72e-3d191b263de0",
+    role: "FullStack Software Developer",
+    company: "i2techs",
+    date: "May 2022 - Jan 2023",
+    desc: "🚀  Collaborated effectively with an agile team of 7 developers to develop and deploy software features and enhancements for a web application leveraging NodeJS, ReactJS and MongoDB.\n\n 🚀  Capitalized on NodeJS and AWS Cloudfront to enhance API performance, contributing towards 18% boost in sales for an automotive auction platform. \n\n 🚀  Contributed towards increasing web application efficiency by 27% through active participation in Scrum meetings and brainstorming sessions, to identify and implement key optimizations.\n\n 🚀  Participated in all stages of the software development lifecycle, from requirements gathering to deployment, delivering well-structured code and achieving 96% adherence to project deadlines. \n\n 🚀  Documented implemented features using swagger and performed test cases, resulting in a 100% error free application.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "Bootstrap",
       "Material UI",
-      "Asp.net",
-      "C#",
-      "SQL Server"
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "MongoDB",
+      "Apollo Server",
+      "GraphQL",
+      "AWS",
+      "Serverless",
+      "Microservices"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    doc: "#",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Software Developer",
-    company: "Codesket LLP",
-    date: "Mar 2017 - May 2020",
-    desc: "🚀  Followed detail-oriented and Test Driven Development approach to ensure bug-free and exception-less code in Backend leveraging Node.js and express.\n\n 🚀  Investigated complex problems and designed time efficient SQL queries to extract data from a highly populated database, demonstrating a deep understanding of database structures and improving overall system efficiency.\n\n 🚀  Leveraged AWS CloudFront, API Gateway, Lambda microservices and S3 to deploy and manage web applications, and Git for efficient tracking of multiple code versions.\n\n 🚀  Worked closely with cross-functional teams, including Architects, DevOps, Product Management and Quality Assurance, product support to coordinate and execute production deployment plans.\n\n 🚀  Incorporated software development lifecycle (SDLC) practices, including requirements gathering, design, development, testing, and deployment, ensuring the project adhered to established quality standards.\n\n 🚀  Diagnosed and addressed software performance issues and engaged into regular reviews of submitted work, and contributed for reviewing others work towards feature development and generation of software fixes for customer issues.\n\n 🚀  Conducted code reviews and quality assurance tasks by creating unit tests on software elements to adhere to established coding standards and deliver high-quality software. ",
+    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/rejoicehub_logo.jpeg?alt=media&token=0d1b1d83-8620-43eb-905e-22809a3183cd",
+    role: "FullStack Software Developer",
+    company: "RejoiceHub LLP",
+    date: "Mar 2019 - Apr 2022",
+    desc: "🚀  Assisted in the development of 6 web applications using Node JS, Express JS, React JS, resulting in seamless client satisfaction.\n\n 🚀  Implemented 10+ new features and user interface enhancements based on wireframes and design specifications provided by the UX/UI team.\n\n 🚀  Followed detail-oriented and Test-Driven Development approach to ensure bug-free and exception-less code for RESTful APIs developed using Node.js and express.\n\n 🚀  Investigated 20+ complex problems and designed time efficient SQL queries to extract data from a highly populated database, demonstrating a deep understanding of database structures and improving overall system efficiency.\n\n 🚀  Leveraged AWS CloudFront, API Gateway, Lambda microservices and S3 to deploy and manage more than 6 web applications.\n\n 🚀  Worked closely with cross-functional teams comprising more than 25 members, including Architects, DevOps, Product Management, and Quality Assurance to coordinate and execute production deployment plans 100% ahead of the time.\n\n 🚀  Diagnosed and addressed software performance issues and engaged in regular code reviews to adhere to established coding standards and to achieve 0% downtime for the delivered code base.\n\n 🚀  Managed source code efficiently using Git and GitHub, ensuring version control and collaboration within the development team.",
     skills: [
       "JavaScript",
       "TypeScript",
       "Node.js",
       "Express",
+      "React JS",
+      "MongoDB",
+      "Apollo Server",
+      "GraphQL",
+      "Python",
+      "Swagger",
+      "Twillio",
+      "Hubspot API",
+      "Postman",
       "AWS Cloudfront",
       "AWS API Gateway",
       "Lambda Microservices",
       "AWS S3",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+    doc: "#",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Software Developer",
-    company: "Maruti Web Solution",
-    date: "June 2020 - May 2021",
-    desc: "🚀  Programmed and implemented code to create RESTful APIs using Node.js and Express.\n\n 🚀  Implemented microservices for a project developed on serverless framework by using AWS Lambda and other AWS services.\n\n 🚀  Leveraged Node.js to enhance API performance and employed Amazon CloudFront on AWS, contributing to a significant 18% boost in sales for an automotive auction platform.\n\n 🚀  Developed highly efficient cross-platform based system to notify users about fraudulent transactions system was implemented leveraging communication channels (SMS, Email) deploying various communication APIs, dev utilities, and Twilio & Hubspot.\n\n 🚀  Implemented security essentials such as threat identification, vulnerability prevention, security policy integration and implemented and managed code documentations using tools like swagger.\n\n 🚀  Utilized Agile development methods to create design specifications, develop and test software applications and features for company's banking clients and various stakeholders.\n\n 🚀  Collaborated closely with an agile team throughout process of design, implement, test and document of web applications.\n\n 🚀  Managed source code efficiently using Git and GitHub, ensuring version control and collaboration within the development team. ",
+    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/default.png?alt=media&token=dcc392a1-1ee0-439e-a0d8-3cca494c4bba",
+    role: "Software Developer Intern",
+    company: "Netizen Solution",
+    date: "Jan 2014 - Jun 2014",
+    desc: "🚀  Conducted in-depth analysis to understand the legacy .Net project's internal workings and created a Microsoft Powerpoint presentation for probable future improvements in the system.\n\n 🚀  Developed a client website leveraging C#, asp.net and SQL Server in real estate domain to improve efficiency by 20% for lead to conversion ratio.\n\n 🚀  Gathered requirements from clients and crafted a software requirement specification documentation using MS Word for effective development.\n\n 🚀  Conducted testing and debugging using Chrome Developer Tools and Postman, ensuring high-quality outputs.",
     skills: [
       "Javascript",
-      "Typescript",
-      "NodeJs",
-      "Express",
-      "ReactJs",
-      "Redux",
-      "AWS & Google Cloud",
-      "MongoDb",
-      "GraphQL",
-      "Apollo Server",
-      "Docker",
-      "Git",
-      "Serverless Framework"   
+      "ASP.Net",
+      "C#",
+      "SQL Server",
+      "ADO.Net",
+      "HTML",
+      "Bootstrap",
+      "Git"   
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    doc: "#",
   },
 ];
 
@@ -272,24 +282,246 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
+    id: 0,
+    title: "HearNote",
+    date: "Sep 2023 - Jan 2024",
+    shortdesc:"HearNote is an innovative web application designed to provide real-time transcription and translation of audio files, significantly enhancing accessibility for users across various language backgrounds.",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "\n\n🚀  Designed a web application using ReactJS that provides real-time transcription and translation of audio files.\n\n 🚀  Optimized performance with Transformers library and Web Workers, decreasing the processing time of transcription and translation tasks by 40%.\n\n 🚀  Crafted a responsive user interface with TailwindCSS, enhancing the user experience and reducing load times by 30%.\n\n 🚀  Utilized JavaScript to seamlessly integrate ML models in the browser to enable users to download transcriptions and translations, which increased user satisfaction by 25%.\n\n 🚀  Leveraged ReactJS to effectively manage states and UI components, ensuring smooth and reliable operation for files up to 50MB.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/hearnote.png?alt=media&token=19af9412-6338-4146-b395-cb0601a73a65",
     tags: [
+      "Javascript",
       "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+      "Webworkers",
+      "Postman",
+      "TailwindCSS",
+      "Transformers",
+      "Github",
+      "Scrum"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/chiragmetaliya/hearnote",
+    webapp: "https://hearnote.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "TipSplit",
+    date: "Sep 2023 - Jan 2024",
+    shortdesc:"The Tip Split app is a ReactJS-based application designed to simplify the process of dividing tips among employees.",
+    description:
+      "\n\n🚀  Built as a portfolio project, this web app not only demonstrates the practical application of ReactJS but also serves as a learning platform for key advanced topics in modern web development. \n\n🚀  𝐊𝐞𝐲 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐀𝐫𝐞𝐚𝐬: \n - 𝐂𝐨𝐝𝐞 𝐒𝐩𝐥𝐢𝐭𝐭𝐢𝐧𝐠: Implemented techniques to improve the performance of the app by loading code only when needed. \n - 𝐁𝐮𝐧𝐝𝐥𝐞 𝐒𝐢𝐳𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬: Focused on optimizing and managing the app's bundle size to ensure efficient performance. \n - 𝐏𝐫𝐨𝐠𝐫𝐞𝐬𝐬𝐢𝐯𝐞 𝐖𝐞𝐛 𝐀𝐩𝐩 (𝐏𝐖𝐀): Transformed the app into a PWA, enhancing its accessibility and offline capabilities. \n - 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧: Applied custom configurations to fine-tune the app's build process and environment settings. \n - 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭: Deployed the app efficiently, following best practices for ReactJS applications.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/tipsplit.jpeg?alt=media&token=60eb4246-8af7-4d38-aadd-846c611c138b",
+    tags: [
+      "Javascript",
+      "Express",
+      "React Js",
+      "TailwindCSS",
+      "Postman",
+      "Github"
+    ],
+    category: "web app",
+    github: "https://github.com/chiragmetaliya/tipssplitapp",
+    webapp: "https://chiragmetaliya.github.io/tipssplitapp/",
+  },
+  {
+    id: 2,
+    title: "ReSecure",
+    date: "May 2024 - Aug 2024",
+    shortdesc:"ReSecureCamera is an innovative home security app developed using Flutter, providing seamless cross-platform functionality for Android. It enables users to set up cameras effortlessly and manage user access, ensuring multiple users can view feeds securely. The app features advanced motion detection with real-time recording capabilities, storing motion clips for future reference.",
+    description:
+      "\n\n🚀  Developed a comprehensive home security app using Flutter, providing seamless cross-platform functionality across Android and iOS.\n\n 🚀  Integrated Firebase to support real-time notifications and multi-user access control, improving response times by 35%.\n\n 🚀  Optimized motion detection and custom alert preferences, reducing false alerts by 42% and enhancing user trust.\n\n 🚀  Designed an intuitive user interface, making it perfectly suitable for non-technical users as well.\n\n 🚀  Planned future expansion to web applications to broaden platform compatibility and accessibility.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/ReSecureCamera.jpg?alt=media&token=4ad863c4-5e3c-4d98-899e-d36e984e8c44",
+    tags: [
+      "Flutter",
+      "Firebase",
+      "GoogleCloud",
+      "Video Streaming",
+      "Motion Detection",
+      "REST APIs",
+      "Postman",
+      "Github"
+    ],
+    category: "android app",
+    github: "https://github.com/chiragmetaliya/ReSecureCamera"
+  },
+  {
+    id: 3,
+    title: "AdventureMinds",
+    date: "Jan 2024 - May 2024",
+    shortdesc:"Leveraging Python and Django, the application allows users to register, create and join trips, and set personalized preferences. Users can rate and review trips, engage in real-time chats with trip organizers, fostering a community of explorers. The responsive user interface built with Bootstrap and JavaScript ensures an intuitive user experience, while SQLite3 efficiently handles data management.",
+    description:
+      "\n\n🚀  Developed a user-friendly platform using Django to connect solo travelers, facilitating seamless interactions and trip planning.\n\n 🚀  Implemented trip creation and joining features along with search recommendation based on jaccard similarity metric.\n\n 🚀  Enabled real-time chat functionality leveraging Javascript and Socket programming, enhancing communication between users and trip organizers.\n\n 🚀  Designed a responsive interface with Bootstrap, ensuring an optimal user experience across various devices.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/AdventureMinds.png?alt=media&token=ff59137c-6e26-48c9-8839-e9e2b985ef6e",
+    tags: [
+      "Python",
+      "Django",
+      "Javascript",
+      "Socket Programming",
+      "REST APIs",
+      "Postman",
+      "Github",
+      "Agile"
+    ],
+    category: "web app",
+    github: "https://github.com/chiragmetaliya/AdventureMinds"
+  },
+  {
+    id: 4,
+    title: "MiteCounterPro ",
+    date: "Jan 2024 - Apr 2024",
+    shortdesc:"MiteCounterPro is a machine learning project developed in collaboration with GrowLiv Biologicals to identify and count mites from video data with an accuracy of 89%. Utilizing YOLOv8's object tracking feature, it reduces manual counting time by 70%. Performance optimization has achieved a 30% reduction in latency, enhancing real-time video processing, with plans to expand capabilities for detecting additional biological specimens.",
+    description:
+      "\n\n🚀  Collaborated in creating a machine learning model on python that identifies and counts mites from video data by GrowLiv Biologicals with an accuracy of 89%.\n\n 🚀  Leveraged the object tracking feature already available within YOLOv8 for identifying and tracking two species of mites, which reduced 70% of the time required by manual counting.\n\n 🚀  Deployed the model within a web application using Django, improving accessibility and usability for field researchers.\n\n 🚀  Optimized the model’s performance for latency reduction by 30% which further enhanced real-time video processing.\n\n 🚀  Planned further improvements to expand the system’s capabilities for detecting additional biological specimens.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/mitecounterpro.png?alt=media&token=ae2ad3b8-e206-4673-bbf5-4dd90d71898e",
+    tags: [
+      "Figma",
+      "Python",
+      "Django",
+      "Flask",
+      "YOLOv8",
+      "Machine Learning",
+      "Video Processing",
+      "REST APIs"
+    ],
+    category: "web app",
+    github: "https://github.com/chiragmetaliya/MiteCounterPro"
+  },
+  {
+    id: 5,
+    title: "FileshareEase ",
+    date: "Sep 2023 - Jan 2024",
+    shortdesc:"FileShareEase is a distributed file-sharing solution built on Debian 12 using C and Shell scripts, enabling fast and efficient transfers via a command-line interface. The system features multi-threaded client-server communication, enhancing file-sharing efficiency by 45%. With integrated tar.gz support and dynamic connection handling, it allows reliable data exchange.",
+    description:
+      "\n\n🚀  Developed a distributed file-sharing solution on Debian 12 using C and Shell scripts to enable fast and efficient file transfers through a streamlined command-line interface.\n\n 🚀  Created multi-threaded client-server communication with support for concurrent file transfers resulting into enhanced efficiency in file sharing to about 45%.\n\n 🚀  Integrated tar.gz file transfer functionality with dynamic connection handling, allowing flexible and reliable data exchange.\n\n 🚀  Implemented system logging automation and fetching of files by utilizing cron jobs to minimize manual monitoring efforts by 60%\n\n 🚀  Enhanced the system's file retrieval capabilities by supporting command-line queries based on file size, date, file name, permissions, or extension.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/fileshareease.png?alt=media&token=b10eb0f7-642b-4e3e-9c14-bceb57e7cfca",
+    tags: [
+      "C",
+      "Shell Scripting",
+      "Debian 12",
+      "Linux",
+      "Cron Jobs",
+      "Multi-threading"
+    ],
+    category: "other",
+    github: "https://github.com/chiragmetaliya/FileShareEase"
+  },
+];
+
+export const certifications = [
+  {
+    id: 0,
+    title: "NodeJS - The Complete Guide",
+    date: "Jun 2021 - Oct 2021",
+    description:
+      "Certified in comprehensive Node.js development, covering key concepts such as core modules, Express.js, MVC architecture, SQL and NoSQL database integration, user authentication, file handling, building REST and GraphQL APIs, real-time applications with WebSockets, and automated testing. The certification also includes hands-on experience with Stripe.js for payments, TypeScript, and deploying Node.js applications.",
+    image:
+      "https://udemy-certificate.s3.amazonaws.com/image/UC-756ce1a0-f9ff-4bab-8dd1-023d8e90d831.jpg",
+    tags: [
+      "NodeJS",
+      "SQL",
+      "MongoDB",
+      "TypeScript",
+      "Deno.js",
+      "Stripe",
+      "GraphQL",
+      "Automated Testing"
+    ],
+    category: "development",
+    certificateLink: "https://www.udemy.com/certificate/UC-756ce1a0-f9ff-4bab-8dd1-023d8e90d831/"
+  },
+  {
+    id: 1,
+    title: "Creating a Dev Environment in AWS with Terraform",
+    date: "Jul 2024 - Aug 2024",
+    description:
+      "Certified in AWS development, focusing on best practices for setting up development environments using Terraform. Gained expertise in configuring, writing, troubleshooting, and updating AWS Lambda functions, as well as integrating Simple Queue Service (SQS) queues with Lambda. Additionally, developed skills in managing AWS WorkSpaces and optimizing regions across development and production environments.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Creating%20a%20Dev%20Environment%20in%20AWS%20with%20Terraform.jpeg?alt=media&token=7f27c49b-fd49-4abd-a3ed-18ff3a7fc678",
+    tags: [
+      "AWS",
+      "Deployment",
+      "Terraform",
+      "SQS",
+      "Lambda"
+    ],
+    category: "development",
+    certificateLink: "https://www.linkedin.com/learning/certificates/3459fdf04625902ae668e6a6fb2e9f532eb3130601b1d8d4243924980b7da9f0"
+  },
+  {
+    id: 2,
+    title: "React: Design Patterns",
+    date: "Jun 2024 - Aug 2024",
+    description:
+      "Certified in advanced React development, specializing in design patterns that provide efficient and reusable solutions to common application challenges. Acquired expertise in using composition, higher-order components, state hoisting, controlled and uncontrolled components, and applying best practices for organizing React components to create well-structured codebases.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/React%20Design%20Patterns.jpeg?alt=media&token=cce3d636-0172-4790-bbdd-55e4ff8d99d3",
+    tags: [
+      "ReactJS",
+      "Software Engineering",
+      "Design Patterns",
+      "Component Composition",
+      "Code Structuring"
+    ],
+    category: "development",
+    certificateLink: "https://www.linkedin.com/learning/certificates/1df040eed96ce5596688747da4befa31c060c40b19c9cb572ca2c06ac3af0613"
+  },
+  {
+    id: 3,
+    title: "Software Design: From Requirements to Release",
+    date: "Jul 2024 - Aug 2024",
+    description:
+      "Certified in software design and development, specializing in full life-cycle project implementation. Acquired skills in requirements elicitation and validation, proof of concept modeling, software design, coding, testing, and best practices for beta deployment and refactoring. Gained hands-on experience managing and structuring projects beyond coding, with a focus on team collaboration and realistic workflow challenges.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Software%20Design%20From%20Requirements%20to%20Release.jpeg?alt=media&token=4282a70a-554b-42de-a067-1d98a254066a",
+    tags: [
+      "Software Engineering",
+      "Software Design",
+      "Software Development Lifecycle",
+      "Elicitation Validation",
+      "Release"
+    ],
+    category: "software engineering",
+    certificateLink: "https://www.linkedin.com/learning/certificates/f8b78697e64cde196062ac185d8ce8b9e304c3f6cb279ad0eb7f11c27ce2f71e"
+  },
+  {
+    id: 4,
+    title: "Project Management Foundations",
+    date: "Aug 2024 - Aug 2024",
+    description:
+      "Certified in Project Management Foundation, with expertise in setting project goals, building comprehensive project plans, managing resources, and ensuring timely project completion. Proficient in both traditional and agile project management methodologies, stakeholder analysis, requirements gathering, budgeting, quality planning, and resource procurement. Gained skills in developing project schedules and monitoring performance to keep projects on track.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Project%20Management%20Foundations.jpeg?alt=media&token=22fb2f43-22a6-48fd-97d4-a14c16ef0b95",
+    tags: [
+      "Project Management",
+      "Software Development",
+      "Software Engineering"
+    ],
+    category: "software engineering",
+    certificateLink: "https://www.linkedin.com/learning/certificates/fa9e4a00dbfe7374616b49d15f77c26fef0c88bb21a9066a4578f82da5fc7971"
+  },
+  {
+    id: 5,
+    title: "Build an AI Application with React and AWS Sagemaker",
+    date: "May 2024 - Aug 2024",
+    description:
+      "Certified in using AWS SageMaker for machine learning model training and deployment. Developed expertise in feature engineering, tuning model performance, and integrating SageMaker with React-based applications. Gained hands-on experience in setting up projects, deploying models, and delivering machine learning results to users through a React front end.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Build%20an%20AI%20Application%20with%20React%20and%20AWS%20SageMaker.jpeg?alt=media&token=7c64d41f-defc-4d7d-8ce1-9a00bef580e4",
+    tags: [
+      "ReactJS",
+      "AWS",
+      "Sagemaker",
+      "Artificial Intelligence",
+      "Deployment"
+    ],
+    category: "development",
+    certificateLink: "https://www.linkedin.com/learning/certificates/0e3b1b5aee3f9d53faed60dfd7474e5348953f4a0c1f63b9eb406d99e1e0435f"
   },
 ];
 

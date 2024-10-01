@@ -3,6 +3,43 @@ import { Modal } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 
+// Define ButtonGroup and Button if they are not imported
+const ButtonGroup = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin: 12px 0px;
+  gap: 12px;
+`;
+
+const Button = styled.a`
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.text_primary};
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: ${({ theme }) => theme.primary};
+  ${({ dull, theme }) =>
+    dull &&
+    `
+        background-color: ${theme.bgLight};
+        color: ${theme.text_secondary};
+        &:hover {
+            background-color: ${theme.bg + 99};
+        }
+    `}
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: ${({ theme }) => theme.primary + 99};
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+`;
+
 const Container = styled.div`
   width: 100%;
   height: 100%;
@@ -55,17 +92,6 @@ const Date = styled.div`
 const Desc = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary};
-  margin: 8px 6px;
-  @media only screen and (max-width: 600px) {
-    font-size: 14px;
-    margin: 6px 6px;
-  }
-`;
-
-const ShortDesc = styled.div`
-  font-size: 17px;
-  font-weight: 450;
   color: ${({ theme }) => theme.text_primary};
   margin: 8px 6px;
   @media only screen and (max-width: 600px) {
@@ -155,48 +181,12 @@ const MemberName = styled.div`
   }
 `;
 
-const ButtonGroup = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  margin: 12px 0px;
-  gap: 12px;
-`;
-
-const Button = styled.a`
-  width: 100%;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
-  padding: 12px 16px;
-  border-radius: 8px;
-  background-color: ${({ theme }) => theme.primary};
-  ${({ dull, theme }) =>
-    dull &&
-    `
-        background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
-        &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
-        }
-    `}
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.5s ease;
-  &:hover {
-    background-color: ${({ theme }) => theme.primary + 99};
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 12px;
-  }
-`;
-
-const ProjectDetails = ({ openModal, setOpenModal }) => {
-  const project = openModal?.project;
+const CertificationDetails = ({ openModal, setOpenModal }) => {
+  const certification = openModal?.certification;
   return (
     <Modal
       open={true}
-      onClose={() => setOpenModal({ state: false, project: null })}
+      onClose={() => setOpenModal({ state: false, certification: null })}
     >
       <Container>
         <Wrapper>
@@ -207,73 +197,31 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
               right: "20px",
               cursor: "pointer",
             }}
-            onClick={() => setOpenModal({ state: false, project: null })}
+            onClick={() => setOpenModal({ state: false, certification: null })}
           />
-          <Image src={project?.image} />
-          <Title>{project?.title}</Title>
-          <Date>{project.date}</Date>
+          <Image src={certification?.image} />
+          <Title>{certification?.title}</Title>
+          <Date>{certification?.date}</Date>
           <Tags>
-            {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+            {certification?.tags.map((tag) => (
+              <Tag key={tag}>{tag}</Tag>
             ))}
           </Tags>
-          <ShortDesc>{project?.shortdesc}</ShortDesc>
-          <Desc>
-            {project?.description?.split('\n').map((line, index) => (
-              <span key={index}>
-                {line}
-                <br />
-              </span>
-            ))}
-          </Desc>
-          {project.member && (
-            <>
-              <Label>Members</Label>
-              <Members>
-                {project?.member.map((member) => (
-                  <Member>
-                    <MemberImage src={member.img} />
-                    <MemberName>{member.name}</MemberName>
-                    <a
-                      href={member.github}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <GitHub />
-                    </a>
-                    <a
-                      href={member.linkedin}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <LinkedIn />
-                    </a>
-                  </Member>
-                ))}
-              </Members>
-            </>
-          )}
+          <Desc>{certification?.description}</Desc>
           <ButtonGroup>
-            {project?.webapp ? (
-              <>
-                <Button dull href={project?.github} target="_blank">
-                  View Code
-                </Button>
-                <Button href={project?.webapp} target="_blank">
-                  View Live App
-                </Button>
-              </>
-            ) : (
-              <Button href={project?.github} target="_blank" style={{ margin: '0 auto' }}>
-                View Code
+            <Button href={certification?.certificateLink} target="new">
+              View Certificate
+            </Button>
+            {certification?.verificationLink && (
+              <Button href={certification?.verificationLink} target="new">
+                Verify
               </Button>
             )}
           </ButtonGroup>
-
         </Wrapper>
       </Container>
     </Modal>
   );
 };
 
-export default ProjectDetails;
+export default CertificationDetails;

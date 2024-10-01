@@ -84,31 +84,6 @@ const ContactInput = styled.input`
   }
 `;
 
-const ContactSelect = styled.select`
-  flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
-  outline: none;
-  font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
-  padding: 12px 16px;
-  appearance: none; /* Remove default styling */
-   &::placeholder {
-    background-color: transparent;
-    color: ${({ theme }) => theme.text_primary}; /* Adjust this to match your design */
-    opacity: 50%; /* Ensure placeholder text is fully opaque */
-  }
-  &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
-  }
-  
-  /* Optional: Add custom arrow icon if needed */
-  &::-ms-expand {
-    display: none; /* Hide default arrow in IE */
-  }
-`;
-
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
