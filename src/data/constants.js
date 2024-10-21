@@ -9,7 +9,7 @@ export const Bio = {
     "I am a dynamic and versatile full-stack developer with over 4+ years of hands-on experience in Node.js, React.js, and Express.js. Driven by a passion for technology and innovation, I am dedicated to delivering high-quality, efficient solutions for complex problems. My easy-going personality and knack for problem-solving enable me to thrive in collaborative, Agile environments, always ready to tackle new challenges and make a meaningful impact.",
   github: "https://github.com/chiragmetaliya",
   resume:
-  "https://drive.google.com/file/d/1Y-Z71CQCMc90w862sA4PqId5PtX-TQqX/view?usp=sharing",
+  "https://docs.google.com/document/d/13MA-b5u78Vm4k8zm6h_ueIy8MkmHluYj/edit?usp=sharing&ouid=100736605283846309743&rtpof=true&sd=true",
   linkedin: "https://www.linkedin.com/in/chirag-metaliya/",
   leetcode: "https://leetcode.com/u/metaliya/",
   insta: "https://www.instagram.com/chirag_metaliyaa/",

@@ -48,7 +48,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <StarCanvas />
+          {/* <StarCanvas /> */}
           <AnimatePresence>
             <div>
               <Hero />

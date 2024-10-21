@@ -254,7 +254,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
+          {/* <StarCanvas /> */}
           <HeroBgAnimation />
         </HeroBg>
 
@@ -305,7 +305,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Chirag Metaliya" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
