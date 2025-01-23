@@ -6,7 +6,7 @@ export const Bio = {
     "Backend Programmer",
   ],
   description:
-    "I am a dynamic and versatile full-stack developer with over 4+ years of hands-on experience in Node.js, React.js, and Express.js. Driven by a passion for technology and innovation, I am dedicated to delivering high-quality, efficient solutions for complex problems. My easy-going personality and knack for problem-solving enable me to thrive in collaborative, Agile environments, always ready to tackle new challenges and make a meaningful impact.",
+    "I am a dynamic and versatile full-stack developer with over 3.5+ years of hands-on experience in Node.js, React.js, and Express.js. Driven by a passion for technology and innovation, I am dedicated to delivering high-quality, efficient solutions for complex problems. My easy-going personality and knack for problem-solving enable me to thrive in collaborative, Agile environments, always ready to tackle new challenges and make a meaningful impact.",
   github: "https://github.com/chiragmetaliya",
   resume:
   "https://docs.google.com/document/d/13MA-b5u78Vm4k8zm6h_ueIy8MkmHluYj/edit?usp=sharing&ouid=100736605283846309743&rtpof=true&sd=true",
@@ -206,7 +206,7 @@ export const experiences = [
     img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/rejoicehub_logo.jpeg?alt=media&token=0d1b1d83-8620-43eb-905e-22809a3183cd",
     role: "FullStack Software Developer",
     company: "RejoiceHub LLP",
-    date: "Mar 2019 - Apr 2022",
+    date: "Sep 2019 - Apr 2022",
     desc: "🚀  Assisted in the development of 6 web applications using Node JS, Express JS, React JS, resulting in seamless client satisfaction.\n\n 🚀  Implemented 10+ new features and user interface enhancements based on wireframes and design specifications provided by the UX/UI team.\n\n 🚀  Followed detail-oriented and Test-Driven Development approach to ensure bug-free and exception-less code for RESTful APIs developed using Node.js and express.\n\n 🚀  Investigated 20+ complex problems and designed time efficient SQL queries to extract data from a highly populated database, demonstrating a deep understanding of database structures and improving overall system efficiency.\n\n 🚀  Leveraged AWS CloudFront, API Gateway, Lambda microservices and S3 to deploy and manage more than 6 web applications.\n\n 🚀  Worked closely with cross-functional teams comprising more than 25 members, including Architects, DevOps, Product Management, and Quality Assurance to coordinate and execute production deployment plans 100% ahead of the time.\n\n 🚀  Diagnosed and addressed software performance issues and engaged in regular code reviews to adhere to established coding standards and to achieve 0% downtime for the delivered code base.\n\n 🚀  Managed source code efficiently using Git and GitHub, ensuring version control and collaboration within the development team.",
     skills: [
       "JavaScript",
