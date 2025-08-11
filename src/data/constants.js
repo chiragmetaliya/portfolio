@@ -201,29 +201,7 @@ export const skills = [
 
 export const experiences = [
   
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/hallcon.jpeg?alt=media&token=cd123cdd-f293-4792-9b64-1b10683a3a13",
-    role: "Software Developer",
-    company: "Hallcon Corporation",
-    date: "Aug 2025 - Present",
-    desc: "🚀 Yet to be filled.",
-    skills: [
-      "C#",
-      "ASP.NET MVC", 
-      ".NET Core",
-      "Entity Framework",
-      "SQL Server",
-      "Razor",
-      "Blazor", 
-      "NodeJS", 
-      "React.js", 
-      "TypeScript", 
-      "AWS",  
-      "LLM"
-    ],
-    doc: "#",
-  },
+  
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/outlier%20logo.png?alt=media&token=5f4f07de-669e-4505-a03c-3c60f1c07a79",
