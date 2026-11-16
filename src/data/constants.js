@@ -9,7 +9,7 @@ export const Bio = {
     "Backend Programmer",
   ],
   description:
-    "I am a dynamic and versatile software developer with over 5+ years of hands-on experience in C#, .NET, and ASP.NET Core. Passionate about building scalable and secure enterprise solutions, I consistently strive to write clean, maintainable code that solves real-world business problems. My calm demeanor and analytical thinking help me thrive in Agile, team-oriented environments. Whether maintaining legacy systems or developing modern APIs, I’m always eager to contribute meaningful, high-impact solutions that align with long-term product goals and architectural standards.",
+    "I am a software developer with 7+ years of hands-on experience building scalable backend systems and cloud solutions. My core stack is C#, .NET and ASP.NET, alongside Node.js and Python, and I design and run services on AWS, from Lambda-based microservices to IoT pipelines that process real-time device data. I also bring AI into real products, from computer-vision models to AI-powered application features. Along the way I have built REST APIs, integrated platforms like Twilio and HubSpot, optimized SQL Server and MySQL databases, and delivered front ends in React and React Native. I enjoy turning requirements into clean, maintainable code, thrive in Agile teams, and have mentored more than a dozen junior developers.",
   github: "https://github.com/chiragmetaliya",
   resume:
   "https://docs.google.com/document/d/13MA-b5u78Vm4k8zm6h_ueIy8MkmHluYj/edit?usp=sharing&ouid=100736605283846309743&rtpof=true&sd=true",
