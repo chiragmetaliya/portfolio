@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/sections/Hero";
 import Skills from "./components/sections/Skills";
-import StarCanvas from "./components/canvas/Stars";
 import Education from "./components/sections/Education";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import Certifications from "./components/sections/Certifications";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-import ProjectDetails from "./components/Dialog/ProjectDetails";
-import CertificationDetails from "./components/Dialog/CertificationDetails";
 import { AnimatePresence } from "framer-motion";
+
+// Dialogs are only needed on click, so keep them out of the initial bundle.
+const ProjectDetails = lazy(() => import("./components/Dialog/ProjectDetails"));
+const CertificationDetails = lazy(() =>
+  import("./components/Dialog/CertificationDetails")
+);
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -66,6 +69,7 @@ function App() {
               </Wrapper>
               <Footer />
 
+              <Suspense fallback={null}>
               {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}
@@ -78,6 +82,7 @@ function App() {
                   setOpenModal={setOpenCertificationModal}
                 />
               )}
+              </Suspense>
             </div>
           </AnimatePresence>
         </Body>

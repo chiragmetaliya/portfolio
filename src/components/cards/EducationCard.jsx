@@ -8,7 +8,7 @@ const Top = styled.div`
   max-width: 100%;
   gap: 12px;
 `;
-const Image = styled.img`
+const Image = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   height: 50px;
   border-radius: 10px;
   margin-top: 4px;
@@ -76,6 +76,7 @@ const EducationCard = ({ education }) => {
     <VerticalTimelineElement
       icon={
         <img
+          loading="lazy"
           width="100%"
           height="100%"
           alt={education.school}

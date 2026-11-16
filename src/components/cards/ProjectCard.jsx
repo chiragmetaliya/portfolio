@@ -20,7 +20,7 @@ const Card = styled.div`
     filter: brightness(1.1);
   }
 `;
-const Image = styled.img`
+const Image = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   width: 100%;
   height: 180px;
   background-color: ${({ theme }) => theme.white};
@@ -87,7 +87,7 @@ const Members = styled.div`
   align-items: center;
   padding-left: 10px;
 `;
-const Avatar = styled.img`
+const Avatar = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   width: 38px;
   height: 38px;
   border-radius: 50%;

@@ -112,7 +112,7 @@ const SkillItem = styled.div`
   }
 `;
 
-const SkillImage = styled.img`
+const SkillImage = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   width: 24px;
   height: 24px;
 `;

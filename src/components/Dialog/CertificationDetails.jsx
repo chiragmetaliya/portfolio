@@ -100,7 +100,7 @@ const Desc = styled.div`
   }
 `;
 
-const Image = styled.img`
+const Image = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
@@ -158,7 +158,7 @@ const Member = styled.div`
   gap: 12px;
 `;
 
-const MemberImage = styled.img`
+const MemberImage = styled.img.attrs({ loading: "lazy", decoding: "async" })`
   width: 50px;
   height: 50px;
   object-fit: cover;

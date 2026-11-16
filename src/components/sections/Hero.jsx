@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/HeroImage.webp";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -11,9 +11,7 @@ import {
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-import StarCanvas from "../canvas/Stars";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { FaFacebookSquare as FacebookIcon, FaLinkedin as LinkedInIcon } from "react-icons/fa";
 import { IconBrandLeetcode, IconBrandSkype } from '@tabler/icons-react';
 
 
@@ -285,7 +283,7 @@ const Hero = () => {
 
               <SocialMediaIcons>
               <SocialMediaIcon href={Bio.linkedin} target="display">
-                  <LinkedInIcon />
+                  <LinkedInIcon size={24} />
                 </SocialMediaIcon>
                 <SocialMediaIcon href={Bio.leetcode} target="display">
                   <IconBrandLeetcode />
@@ -294,7 +292,7 @@ const Hero = () => {
                   <IconBrandSkype />
                 </SocialMediaIcon>
                 <SocialMediaIcon href={Bio.facebook} target="display">
-                  <FacebookIcon />
+                  <FacebookIcon size={24} />
                 </SocialMediaIcon>
               </SocialMediaIcons>
 
@@ -305,7 +303,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Chirag Metaliya" />
+                  <Img src={HeroImg} alt="Chirag Metaliya" width="400" height="400" fetchpriority="high" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

@@ -1,9 +1,10 @@
 // components/sections/Certifications.jsx
-import React, { useState } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import styled from "styled-components";
 import { certifications } from "../../data/constants";
 import CertificationCard from "../cards/CertificationCard";
-import CertificationDetails from "../Dialog/CertificationDetails";
+
+const CertificationDetails = lazy(() => import("../Dialog/CertificationDetails"));
 
 const Container = styled.div`
 margin-top: 100px;
@@ -157,12 +158,14 @@ const Certifications = () => {
                 />
                 ))}
             </CardContainer>
-            {openModal.state && (
-                <CertificationDetails
-                    openModal={openModal}
-                    setOpenModal={setOpenModal}
-                />
-            )}
+            <Suspense fallback={null}>
+                {openModal.state && (
+                    <CertificationDetails
+                        openModal={openModal}
+                        setOpenModal={setOpenModal}
+                    />
+                )}
+            </Suspense>
         </>
     );
 };
