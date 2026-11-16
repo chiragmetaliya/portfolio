@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d1f"/><stop offset="1" stop-color="#1c1532"/></linearGradient>
+  <radialGradient id="glow" cx="0.78" cy="0.45" r="0.55"><stop offset="0" stop-color="#e11d48" stop-opacity="0.55"/><stop offset="1" stop-color="#e11d48" stop-opacity="0"/></radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e11d48"/><stop offset="1" stop-color="#fda4af"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity="0.07"/></pattern>
+</defs>
+<rect width="660" height="360" fill="url(#bg)"/>
+<rect width="660" height="360" fill="url(#grid)"/>
+<rect width="660" height="360" fill="url(#glow)"/>
+<rect x="40" y="69" width="6" height="22" rx="3" fill="url(#acc)"/>
+<text x="54" y="86" font-size="14" font-weight="600" letter-spacing="2.5" fill="#fda4af">CERTIFICATION · ENGINEERING</text>
+<text x="40" y="131" font-size="32" font-weight="700" fill="#fff">Software Design:</text><text x="40" y="169" font-size="32" font-weight="700" fill="#fff">Requirements to Release</text>
+<rect x="40" y="213" width="52.4" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#fda4af" stroke-opacity="0.6"/><text x="66.2" y="230.5" font-size="13" fill="#fff" text-anchor="middle">SDLC</text><rect x="100.4" y="213" width="113.19999999999999" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#fda4af" stroke-opacity="0.6"/><text x="157" y="230.5" font-size="13" fill="#fff" text-anchor="middle">Architecture</text><rect x="221.6" y="213" width="75.19999999999999" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#fda4af" stroke-opacity="0.6"/><text x="259.2" y="230.5" font-size="13" fill="#fff" text-anchor="middle">Testing</text>
+<g transform="translate(400 50)"><rect x="34" y="6" width="180" height="38" rx="10" fill="#fff" fill-opacity="0.08" stroke="#fda4af" stroke-opacity="0.6"/>
+<circle cx="54" cy="25" r="11" fill="#e11d48"/><text x="54" y="30" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="74" y="31" font-size="15" font-weight="600" fill="#fff">Requirements</text>
+<path d="M129 44 v14" stroke="#fda4af" stroke-width="2" marker-end=""/><rect x="64" y="58" width="180" height="38" rx="10" fill="#fff" fill-opacity="0.08" stroke="#fda4af" stroke-opacity="0.6"/>
+<circle cx="84" cy="77" r="11" fill="#e11d48"/><text x="84" y="82" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="104" y="83" font-size="15" font-weight="600" fill="#fff">Design</text>
+<path d="M159 96 v14" stroke="#fda4af" stroke-width="2" marker-end=""/><rect x="34" y="110" width="180" height="38" rx="10" fill="#fff" fill-opacity="0.08" stroke="#fda4af" stroke-opacity="0.6"/>
+<circle cx="54" cy="129" r="11" fill="#e11d48"/><text x="54" y="134" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="74" y="135" font-size="15" font-weight="600" fill="#fff">Build</text>
+<path d="M129 148 v14" stroke="#fda4af" stroke-width="2" marker-end=""/><rect x="64" y="162" width="180" height="38" rx="10" fill="#fff" fill-opacity="0.08" stroke="#fda4af" stroke-opacity="0.6"/>
+<circle cx="84" cy="181" r="11" fill="#e11d48"/><text x="84" y="186" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="104" y="187" font-size="15" font-weight="600" fill="#fff">Test</text>
+<path d="M159 200 v14" stroke="#fda4af" stroke-width="2" marker-end=""/><rect x="34" y="214" width="180" height="38" rx="10" fill="#e11d48" fill-opacity="1" stroke="#fda4af" stroke-opacity="0.6"/>
+<circle cx="54" cy="233" r="11" fill="#e11d48"/><text x="54" y="238" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="74" y="239" font-size="15" font-weight="600" fill="#fff">Release</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d1f"/><stop offset="1" stop-color="#1c1532"/></linearGradient>
+  <radialGradient id="glow" cx="0.78" cy="0.45" r="0.55"><stop offset="0" stop-color="#6d5dfc" stop-opacity="0.55"/><stop offset="1" stop-color="#6d5dfc" stop-opacity="0"/></radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d5dfc"/><stop offset="1" stop-color="#a99bff"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity="0.07"/></pattern>
+</defs>
+<rect width="660" height="360" fill="url(#bg)"/>
+<rect width="660" height="360" fill="url(#grid)"/>
+<rect width="660" height="360" fill="url(#glow)"/>
+<rect x="40" y="88" width="6" height="22" rx="3" fill="url(#acc)"/>
+<text x="54" y="105" font-size="14" font-weight="600" letter-spacing="2.5" fill="#a99bff">WEB APP · AI</text>
+<text x="40" y="150" font-size="32" font-weight="700" fill="#fff">HearNote</text>
+<rect x="40" y="194" width="60" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#a99bff" stroke-opacity="0.6"/><text x="70" y="211.5" font-size="13" fill="#fff" text-anchor="middle">React</text><rect x="108" y="194" width="113.19999999999999" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#a99bff" stroke-opacity="0.6"/><text x="164.6" y="211.5" font-size="13" fill="#fff" text-anchor="middle">Transformers</text><rect x="229.2" y="194" width="105.6" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#a99bff" stroke-opacity="0.6"/><text x="282" y="211.5" font-size="13" fill="#fff" text-anchor="middle">Web Workers</text>
+<g transform="translate(400 50)"><rect x="0" y="0" width="236" height="260" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#a99bff" stroke-opacity="0.45"/><rect x="12" y="80" width="8" height="30" rx="4" fill="url(#acc)" opacity="0.55"/><rect x="26" y="64" width="8" height="62" rx="4" fill="url(#acc)" opacity="0.7000000000000001"/><rect x="40" y="73" width="8" height="44" rx="4" fill="url(#acc)" opacity="0.8500000000000001"/><rect x="54" y="50" width="8" height="90" rx="4" fill="url(#acc)" opacity="0.55"/><rect x="68" y="35" width="8" height="120" rx="4" fill="url(#acc)" opacity="0.7000000000000001"/><rect x="82" y="57" width="8" height="76" rx="4" fill="url(#acc)" opacity="0.8500000000000001"/><rect x="96" y="43" width="8" height="104" rx="4" fill="url(#acc)" opacity="0.55"/><rect x="110" y="66" width="8" height="58" rx="4" fill="url(#acc)" opacity="0.7000000000000001"/><rect x="124" y="29" width="8" height="132" rx="4" fill="url(#acc)" opacity="0.8500000000000001"/><rect x="138" y="51" width="8" height="88" rx="4" fill="url(#acc)" opacity="0.55"/><rect x="152" y="71" width="8" height="48" rx="4" fill="url(#acc)" opacity="0.7000000000000001"/><rect x="166" y="47" width="8" height="96" rx="4" fill="url(#acc)" opacity="0.8500000000000001"/><rect x="180" y="62" width="8" height="66" rx="4" fill="url(#acc)" opacity="0.55"/><rect x="194" y="77" width="8" height="36" rx="4" fill="url(#acc)" opacity="0.7000000000000001"/><rect x="208" y="68" width="8" height="54" rx="4" fill="url(#acc)" opacity="0.8500000000000001"/><rect x="222" y="83" width="8" height="24" rx="4" fill="url(#acc)" opacity="0.55"/>
+<rect x="18" y="178" width="200" height="64" rx="12" fill="#fff" fill-opacity="0.92"/>
+<path d="M40 242 l-8 14 l20 -14z" fill="#fff" fill-opacity="0.92"/>
+<rect x="32" y="192" width="130" height="8" rx="4" fill="#6d5dfc"/>
+<rect x="32" y="208" width="170" height="8" rx="4" fill="#c9c4f2"/>
+<rect x="32" y="224" width="96" height="8" rx="4" fill="#c9c4f2"/>
+<rect x="150" y="-12" width="80" height="28" rx="14" fill="#6d5dfc"/><text x="190" y="7" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">EN → FR</text></g>
+</svg>

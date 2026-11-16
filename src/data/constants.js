@@ -364,7 +364,7 @@ export const projects = [
     description:
       "\n\n🚀  Designed a web application using ReactJS that provides real-time transcription and translation of audio files.\n\n 🚀  Optimized performance with Transformers library and Web Workers, decreasing the processing time of transcription and translation tasks by 40%.\n\n 🚀  Crafted a responsive user interface with TailwindCSS, enhancing the user experience and reducing load times by 30%.\n\n 🚀  Utilized JavaScript to seamlessly integrate ML models in the browser to enable users to download transcriptions and translations, which increased user satisfaction by 25%.\n\n 🚀  Leveraged ReactJS to effectively manage states and UI components, ensuring smooth and reliable operation for files up to 50MB.",
     image:
-      localImage("hearnote.png"),
+      localImage("hearnote.svg"),
     tags: [
       "Javascript",
       "React Js",
@@ -408,7 +408,7 @@ export const projects = [
     description:
       "\n\n🚀  Developed a comprehensive home security app using Flutter, providing seamless cross-platform functionality across Android and iOS.\n\n 🚀  Integrated Firebase to support real-time notifications and multi-user access control, improving response times by 35%.\n\n 🚀  Optimized motion detection and custom alert preferences, reducing false alerts by 42% and enhancing user trust.\n\n 🚀  Designed an intuitive user interface, making it perfectly suitable for non-technical users as well.\n\n 🚀  Planned future expansion to web applications to broaden platform compatibility and accessibility.",
     image:
-      localImage("resecure-camera.jpg"),
+      localImage("resecure-camera.svg"),
     tags: [
       "Flutter",
       "Firebase",
@@ -430,7 +430,7 @@ export const projects = [
     description:
       "\n\n🚀  Developed a user-friendly platform using Django to connect solo travelers, facilitating seamless interactions and trip planning.\n\n 🚀  Implemented trip creation and joining features along with search recommendation based on jaccard similarity metric.\n\n 🚀  Enabled real-time chat functionality leveraging Javascript and Socket programming, enhancing communication between users and trip organizers.\n\n 🚀  Designed a responsive interface with Bootstrap, ensuring an optimal user experience across various devices.",
     image:
-      localImage("adventure-minds.png"),
+      localImage("adventure-minds.svg"),
     tags: [
       "Python",
       "Django",
@@ -452,7 +452,7 @@ export const projects = [
     description:
       "\n\n🚀  Collaborated in creating a machine learning model on python that identifies and counts mites from video data by GrowLiv Biologicals with an accuracy of 89%.\n\n 🚀  Leveraged the object tracking feature already available within YOLOv8 for identifying and tracking two species of mites, which reduced 70% of the time required by manual counting.\n\n 🚀  Deployed the model within a web application using Django, improving accessibility and usability for field researchers.\n\n 🚀  Optimized the model’s performance for latency reduction by 30% which further enhanced real-time video processing.\n\n 🚀  Planned further improvements to expand the system’s capabilities for detecting additional biological specimens.",
     image:
-      localImage("mitecounterpro.png"),
+      localImage("mitecounterpro.svg"),
     tags: [
       "Figma",
       "Python",
@@ -538,7 +538,7 @@ export const certifications = [
     description:
       "Certified in AWS development, focusing on best practices for setting up development environments using Terraform. Gained expertise in configuring, writing, troubleshooting, and updating AWS Lambda functions, as well as integrating Simple Queue Service (SQS) queues with Lambda. Additionally, developed skills in managing AWS WorkSpaces and optimizing regions across development and production environments.",
     image:
-      localImage("cert-aws-terraform.jpeg"),
+      localImage("cert-aws-terraform.svg"),
     tags: [
       "AWS",
       "Deployment",
@@ -556,7 +556,7 @@ export const certifications = [
     description:
       "Certified in advanced React development, specializing in design patterns that provide efficient and reusable solutions to common application challenges. Acquired expertise in using composition, higher-order components, state hoisting, controlled and uncontrolled components, and applying best practices for organizing React components to create well-structured codebases.",
     image:
-      localImage("cert-react-design-patterns.jpeg"),
+      localImage("cert-react-design-patterns.svg"),
     tags: [
       "ReactJS",
       "Software Engineering",
@@ -574,7 +574,7 @@ export const certifications = [
     description:
       "Certified in software design and development, specializing in full life-cycle project implementation. Acquired skills in requirements elicitation and validation, proof of concept modeling, software design, coding, testing, and best practices for beta deployment and refactoring. Gained hands-on experience managing and structuring projects beyond coding, with a focus on team collaboration and realistic workflow challenges.",
     image:
-      localImage("cert-software-design.jpeg"),
+      localImage("cert-software-design.svg"),
     tags: [
       "Software Engineering",
       "Software Design",
@@ -592,7 +592,7 @@ export const certifications = [
     description:
       "Certified in Project Management Foundation, with expertise in setting project goals, building comprehensive project plans, managing resources, and ensuring timely project completion. Proficient in both traditional and agile project management methodologies, stakeholder analysis, requirements gathering, budgeting, quality planning, and resource procurement. Gained skills in developing project schedules and monitoring performance to keep projects on track.",
     image:
-      localImage("cert-project-management.jpeg"),
+      localImage("cert-project-management.svg"),
     tags: [
       "Project Management",
       "Software Development",
@@ -608,7 +608,7 @@ export const certifications = [
     description:
       "Certified in using AWS SageMaker for machine learning model training and deployment. Developed expertise in feature engineering, tuning model performance, and integrating SageMaker with React-based applications. Gained hands-on experience in setting up projects, deploying models, and delivering machine learning results to users through a React front end.",
     image:
-      localImage("cert-ai-react-sagemaker.jpeg"),
+      localImage("cert-ai-react-sagemaker.svg"),
     tags: [
       "ReactJS",
       "AWS",
