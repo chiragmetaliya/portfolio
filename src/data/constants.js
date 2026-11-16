@@ -258,7 +258,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: localImage("default.png"),
+    img: localImage("maruti_logo.jpeg"),
     role: "Full Stack Developer",
     company: "Maruti Web Solution · Surat, India",
     date: "Jun 2020 - May 2022",
@@ -282,7 +282,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: localImage("default.png"),
+    img: localImage("codesket_logo.jpeg"),
     role: "Full Stack Web Developer",
     company: "Codesket · Surat, India (Freelance)",
     date: "Mar 2017 - May 2020",
