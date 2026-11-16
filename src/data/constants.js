@@ -1,3 +1,6 @@
+// Images are served from public/images (Firebase Storage was retired on the Spark plan).
+const localImage = (file) => `${process.env.PUBLIC_URL}/images/${file}`;
+
 export const Bio = {
   name: "Chirag Metaliya",
   roles: [
@@ -202,7 +205,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/hallcon.jpeg?alt=media&token=cd123cdd-f293-4792-9b64-1b10683a3a13",
+    img: localImage("hallcon.jpeg"),
     role: "Software Developer",
     company: "Hallcon Corporation · Toronto, ON (Hybrid)",
     date: "Aug 2025 - Present",
@@ -227,7 +230,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/i2techs_logo.jpeg?alt=media&token=194905ce-47ec-4282-a72e-3d191b263de0",
+    img: localImage("i2techs_logo.jpeg"),
     role: "Software Developer",
     company: "i2TECHS · Ahmedabad, India (Remote)",
     date: "May 2022 - Jan 2023",
@@ -255,7 +258,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/default.png?alt=media&token=dcc392a1-1ee0-439e-a0d8-3cca494c4bba",
+    img: localImage("default.png"),
     role: "Full Stack Developer",
     company: "Maruti Web Solution · Surat, India",
     date: "Jun 2020 - May 2022",
@@ -279,7 +282,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/default.png?alt=media&token=dcc392a1-1ee0-439e-a0d8-3cca494c4bba",
+    img: localImage("default.png"),
     role: "Full Stack Web Developer",
     company: "Codesket · Surat, India (Freelance)",
     date: "Mar 2017 - May 2020",
@@ -302,7 +305,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/default.png?alt=media&token=dcc392a1-1ee0-439e-a0d8-3cca494c4bba",
+    img: localImage("default.png"),
     role: "Web Development Intern",
     company: "Netizen Solutions · Ahmedabad, India",
     date: "Jan 2014 - Jun 2014",
@@ -325,7 +328,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Uwin.jpg?alt=media&token=09218112-799e-4b7a-940c-a37a4e88b943",
+    img: localImage("uwin.jpg"),
     school: "University of Windsor, ON, Canada",
     date: "May 2023 - Aug 2024",
     grade: "8.0 GPA",
@@ -334,7 +337,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/gtu.png?alt=media&token=ff15c176-aabd-41df-94d1-893bf4336bb2",
+    img: localImage("gtu.png"),
     school: "V.V.P Engineering College under Gujarat Technological University, Gujarat, India",
     date: "Aug 2014 - June 2017",
     grade: "9.24 CGPA",
@@ -343,7 +346,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/nirma.png?alt=media&token=bcb6e667-cb6b-4b89-acb6-97651b7da2dc",
+    img: localImage("nirma.png"),
     school: "Institute of Diploma Studies, under Nirma University",
     date: "Apr 2011 - July 2014",
     grade: "8.84 CGPA",
@@ -361,7 +364,7 @@ export const projects = [
     description:
       "\n\n🚀  Designed a web application using ReactJS that provides real-time transcription and translation of audio files.\n\n 🚀  Optimized performance with Transformers library and Web Workers, decreasing the processing time of transcription and translation tasks by 40%.\n\n 🚀  Crafted a responsive user interface with TailwindCSS, enhancing the user experience and reducing load times by 30%.\n\n 🚀  Utilized JavaScript to seamlessly integrate ML models in the browser to enable users to download transcriptions and translations, which increased user satisfaction by 25%.\n\n 🚀  Leveraged ReactJS to effectively manage states and UI components, ensuring smooth and reliable operation for files up to 50MB.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/hearnote.png?alt=media&token=19af9412-6338-4146-b395-cb0601a73a65",
+      localImage("hearnote.png"),
     tags: [
       "Javascript",
       "React Js",
@@ -384,7 +387,7 @@ export const projects = [
     description:
       "\n\n🚀  Built as a portfolio project, this web app not only demonstrates the practical application of ReactJS but also serves as a learning platform for key advanced topics in modern web development. \n\n🚀  𝐊𝐞𝐲 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐀𝐫𝐞𝐚𝐬: \n - 𝐂𝐨𝐝𝐞 𝐒𝐩𝐥𝐢𝐭𝐭𝐢𝐧𝐠: Implemented techniques to improve the performance of the app by loading code only when needed. \n - 𝐁𝐮𝐧𝐝𝐥𝐞 𝐒𝐢𝐳𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬: Focused on optimizing and managing the app's bundle size to ensure efficient performance. \n - 𝐏𝐫𝐨𝐠𝐫𝐞𝐬𝐬𝐢𝐯𝐞 𝐖𝐞𝐛 𝐀𝐩𝐩 (𝐏𝐖𝐀): Transformed the app into a PWA, enhancing its accessibility and offline capabilities. \n - 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧: Applied custom configurations to fine-tune the app's build process and environment settings. \n - 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭: Deployed the app efficiently, following best practices for ReactJS applications.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/tipsplit.jpeg?alt=media&token=60eb4246-8af7-4d38-aadd-846c611c138b",
+      localImage("tipsplit.jpeg"),
     tags: [
       "Javascript",
       "Express",
@@ -405,7 +408,7 @@ export const projects = [
     description:
       "\n\n🚀  Developed a comprehensive home security app using Flutter, providing seamless cross-platform functionality across Android and iOS.\n\n 🚀  Integrated Firebase to support real-time notifications and multi-user access control, improving response times by 35%.\n\n 🚀  Optimized motion detection and custom alert preferences, reducing false alerts by 42% and enhancing user trust.\n\n 🚀  Designed an intuitive user interface, making it perfectly suitable for non-technical users as well.\n\n 🚀  Planned future expansion to web applications to broaden platform compatibility and accessibility.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/ReSecureCamera.jpg?alt=media&token=4ad863c4-5e3c-4d98-899e-d36e984e8c44",
+      localImage("resecure-camera.jpg"),
     tags: [
       "Flutter",
       "Firebase",
@@ -427,7 +430,7 @@ export const projects = [
     description:
       "\n\n🚀  Developed a user-friendly platform using Django to connect solo travelers, facilitating seamless interactions and trip planning.\n\n 🚀  Implemented trip creation and joining features along with search recommendation based on jaccard similarity metric.\n\n 🚀  Enabled real-time chat functionality leveraging Javascript and Socket programming, enhancing communication between users and trip organizers.\n\n 🚀  Designed a responsive interface with Bootstrap, ensuring an optimal user experience across various devices.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/AdventureMinds.png?alt=media&token=ff59137c-6e26-48c9-8839-e9e2b985ef6e",
+      localImage("adventure-minds.png"),
     tags: [
       "Python",
       "Django",
@@ -449,7 +452,7 @@ export const projects = [
     description:
       "\n\n🚀  Collaborated in creating a machine learning model on python that identifies and counts mites from video data by GrowLiv Biologicals with an accuracy of 89%.\n\n 🚀  Leveraged the object tracking feature already available within YOLOv8 for identifying and tracking two species of mites, which reduced 70% of the time required by manual counting.\n\n 🚀  Deployed the model within a web application using Django, improving accessibility and usability for field researchers.\n\n 🚀  Optimized the model’s performance for latency reduction by 30% which further enhanced real-time video processing.\n\n 🚀  Planned further improvements to expand the system’s capabilities for detecting additional biological specimens.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/mitecounterpro.png?alt=media&token=ae2ad3b8-e206-4673-bbf5-4dd90d71898e",
+      localImage("mitecounterpro.png"),
     tags: [
       "Figma",
       "Python",
@@ -471,7 +474,7 @@ export const projects = [
     description:
       "\n\n🚀  Developed a distributed file-sharing solution on Debian 12 using C and Shell scripts to enable fast and efficient file transfers through a streamlined command-line interface.\n\n 🚀  Created multi-threaded client-server communication with support for concurrent file transfers resulting into enhanced efficiency in file sharing to about 45%.\n\n 🚀  Integrated tar.gz file transfer functionality with dynamic connection handling, allowing flexible and reliable data exchange.\n\n 🚀  Implemented system logging automation and fetching of files by utilizing cron jobs to minimize manual monitoring efforts by 60%\n\n 🚀  Enhanced the system's file retrieval capabilities by supporting command-line queries based on file size, date, file name, permissions, or extension.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/fileshareease.png?alt=media&token=b10eb0f7-642b-4e3e-9c14-bceb57e7cfca",
+      localImage("fileshareease.png"),
     tags: [
       "C",
       "Shell Scripting",
@@ -493,7 +496,7 @@ export const certifications = [
     description:
       "Certified as an AWS Cloud Practitioner, demonstrating a strong foundational understanding of AWS Cloud concepts, core services, security, architecture principles, pricing models, and support plans. The certification covers key areas such as IAM, compute and storage services, billing and cost management, cloud deployment models, and the AWS shared responsibility model. It also includes practical insights into global infrastructure, best practices for building in the cloud, and identifying appropriate AWS services for common use cases.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/AWS%20Certificate.PNG?alt=media&token=b1f24408-7ba3-49ad-b4a9-21783aa66c32",
+      localImage("aws-certificate.png"),
     tags: [
       "AWS",
       "EC2",
@@ -535,7 +538,7 @@ export const certifications = [
     description:
       "Certified in AWS development, focusing on best practices for setting up development environments using Terraform. Gained expertise in configuring, writing, troubleshooting, and updating AWS Lambda functions, as well as integrating Simple Queue Service (SQS) queues with Lambda. Additionally, developed skills in managing AWS WorkSpaces and optimizing regions across development and production environments.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Creating%20a%20Dev%20Environment%20in%20AWS%20with%20Terraform.jpeg?alt=media&token=7f27c49b-fd49-4abd-a3ed-18ff3a7fc678",
+      localImage("cert-aws-terraform.jpeg"),
     tags: [
       "AWS",
       "Deployment",
@@ -553,7 +556,7 @@ export const certifications = [
     description:
       "Certified in advanced React development, specializing in design patterns that provide efficient and reusable solutions to common application challenges. Acquired expertise in using composition, higher-order components, state hoisting, controlled and uncontrolled components, and applying best practices for organizing React components to create well-structured codebases.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/React%20Design%20Patterns.jpeg?alt=media&token=cce3d636-0172-4790-bbdd-55e4ff8d99d3",
+      localImage("cert-react-design-patterns.jpeg"),
     tags: [
       "ReactJS",
       "Software Engineering",
@@ -571,7 +574,7 @@ export const certifications = [
     description:
       "Certified in software design and development, specializing in full life-cycle project implementation. Acquired skills in requirements elicitation and validation, proof of concept modeling, software design, coding, testing, and best practices for beta deployment and refactoring. Gained hands-on experience managing and structuring projects beyond coding, with a focus on team collaboration and realistic workflow challenges.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Software%20Design%20From%20Requirements%20to%20Release.jpeg?alt=media&token=4282a70a-554b-42de-a067-1d98a254066a",
+      localImage("cert-software-design.jpeg"),
     tags: [
       "Software Engineering",
       "Software Design",
@@ -589,7 +592,7 @@ export const certifications = [
     description:
       "Certified in Project Management Foundation, with expertise in setting project goals, building comprehensive project plans, managing resources, and ensuring timely project completion. Proficient in both traditional and agile project management methodologies, stakeholder analysis, requirements gathering, budgeting, quality planning, and resource procurement. Gained skills in developing project schedules and monitoring performance to keep projects on track.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Project%20Management%20Foundations.jpeg?alt=media&token=22fb2f43-22a6-48fd-97d4-a14c16ef0b95",
+      localImage("cert-project-management.jpeg"),
     tags: [
       "Project Management",
       "Software Development",
@@ -605,7 +608,7 @@ export const certifications = [
     description:
       "Certified in using AWS SageMaker for machine learning model training and deployment. Developed expertise in feature engineering, tuning model performance, and integrating SageMaker with React-based applications. Gained hands-on experience in setting up projects, deploying models, and delivering machine learning results to users through a React front end.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/chiragmetaliya-df2e9.appspot.com/o/Build%20an%20AI%20Application%20with%20React%20and%20AWS%20SageMaker.jpeg?alt=media&token=7c64d41f-defc-4d7d-8ce1-9a00bef580e4",
+      localImage("cert-ai-react-sagemaker.jpeg"),
     tags: [
       "ReactJS",
       "AWS",
