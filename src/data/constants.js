@@ -328,7 +328,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: localImage("uwin.jpg"),
+    img: localImage("uwindsor_logo.png"),
     school: "University of Windsor, ON, Canada",
     date: "May 2023 - Aug 2024",
     grade: "8.0 GPA",
@@ -337,7 +337,7 @@ export const education = [
   },
   {
     id: 1,
-    img: localImage("gtu.png"),
+    img: localImage("vvp_logo.jpeg"),
     school: "V.V.P Engineering College under Gujarat Technological University, Gujarat, India",
     date: "Aug 2014 - June 2017",
     grade: "9.24 CGPA",
@@ -346,7 +346,7 @@ export const education = [
   },
   {
     id: 2,
-    img: localImage("nirma.png"),
+    img: localImage("nirma_logo.png"),
     school: "Institute of Diploma Studies, under Nirma University",
     date: "Apr 2011 - July 2014",
     grade: "8.84 CGPA",
