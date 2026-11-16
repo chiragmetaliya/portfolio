@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d1f"/><stop offset="1" stop-color="#1c1532"/></linearGradient>
+  <radialGradient id="glow" cx="0.78" cy="0.45" r="0.55"><stop offset="0" stop-color="#0ea5e9" stop-opacity="0.55"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity="0.07"/></pattern>
+</defs>
+<rect width="660" height="360" fill="url(#bg)"/>
+<rect width="660" height="360" fill="url(#grid)"/>
+<rect width="660" height="360" fill="url(#glow)"/>
+<rect x="40" y="69" width="6" height="22" rx="3" fill="url(#acc)"/>
+<text x="54" y="86" font-size="14" font-weight="600" letter-spacing="2.5" fill="#7dd3fc">CERTIFICATION · FRONTEND</text>
+<text x="40" y="131" font-size="32" font-weight="700" fill="#fff">React:</text><text x="40" y="169" font-size="32" font-weight="700" fill="#fff">Design Patterns</text>
+<rect x="40" y="213" width="60" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#7dd3fc" stroke-opacity="0.6"/><text x="70" y="230.5" font-size="13" fill="#fff" text-anchor="middle">React</text><rect x="108" y="213" width="52.4" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#7dd3fc" stroke-opacity="0.6"/><text x="134.2" y="230.5" font-size="13" fill="#fff" text-anchor="middle">HOCs</text><rect x="168.4" y="213" width="60" height="26" rx="13" fill="#ffffff" fill-opacity="0.12" stroke="#7dd3fc" stroke-opacity="0.6"/><text x="198.4" y="230.5" font-size="13" fill="#fff" text-anchor="middle">Hooks</text>
+<g transform="translate(400 50)">
+<g transform="translate(125 70)" fill="none" stroke="#7dd3fc" stroke-width="4"><ellipse rx="70" ry="26"/><ellipse rx="70" ry="26" transform="rotate(60)"/><ellipse rx="70" ry="26" transform="rotate(120)"/></g>
+<circle cx="125" cy="70" r="11" fill="#0ea5e9"/>
+<path d="M125 150 v18 M125 168 h-80 v16 M125 168 h80 v16 M125 168 v16" stroke="#7dd3fc" stroke-width="2" fill="none" opacity="0.7"/>
+<rect x="85" y="126" width="80" height="26" rx="8" fill="#0ea5e9"/><text x="125" y="144" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">&lt;App/&gt;</text>
+<rect x="5" y="184" width="80" height="26" rx="8" fill="#fff" fill-opacity="0.1" stroke="#7dd3fc"/><text x="45" y="202" font-size="12" fill="#fff" text-anchor="middle">&lt;Layout/&gt;</text><rect x="85" y="184" width="80" height="26" rx="8" fill="#fff" fill-opacity="0.1" stroke="#7dd3fc"/><text x="125" y="202" font-size="12" fill="#fff" text-anchor="middle">&lt;Provider/&gt;</text><rect x="165" y="184" width="80" height="26" rx="8" fill="#fff" fill-opacity="0.1" stroke="#7dd3fc"/><text x="205" y="202" font-size="12" fill="#fff" text-anchor="middle">&lt;List/&gt;</text>
+<rect x="45" y="226" width="160" height="26" rx="8" fill="#fff" fill-opacity="0.1" stroke="#7dd3fc" stroke-dasharray="4 3"/><text x="125" y="244" font-size="12" fill="#7dd3fc" text-anchor="middle">withData(Component)</text></g>
+</svg>
